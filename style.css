@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_medium';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KBO-Dia-Gothic_bold';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/KBO-Dia-Gothic_bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 1;
+}
+.top{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* background-color: black; */
+    z-index: 10;
+    background: radial-gradient(
+        rgba(110, 110, 110, 0.3),
+        rgba( 0, 0, 0, 0.8)
+        );
+}
+.wrap{
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 20;
+}
+.logo{
+    height: 118px;
+    text-align: center; 
+    padding-top: 40px;
+}
+.more{
+    height: 50px;
+    text-align: center;
+    padding-top: 41px;
+}
+.subcopy{
+    height: 92px;
+    padding-top: 515px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'KBO-Dia-Gothic_medium';
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* -------- 지금부터 subpage -------- */
+
+.block01, .block02, .block03, .block04, .block05,
+.block06, .block07{
+    width: 430px;
+    height: 932px;
+    background-repeat: no-repeat;
+}
+
+.block01{
+    background-image: url(img/img01.png);
+}
+.block02{
+    background-image: url(img/img02.png);
+}
+.block03{
+    background-image: url(img/img03.png);
+}
+.block04{
+    background-image: url(img/img04.png);
+}
+.block05{
+    background-image: url(img/img05.png);
+}
+.block06{
+    background-image: url(img/img06.png);
+}
+.block07{
+    background-image: url(img/img07.png);
+}
+
+footer{
+    width: 430px;
+    height: 330px;
+    background-color: #000000;
+}
+footer > img {padding-left: 48px;padding-top: 66px; position: absolute;}
+.f00{
+    font-family: 'KBO-Dia-Gothic_medium';
+    font-weight: 500;
+    color: white;
+}
+.f01{
+    font-size: 9px;
+    padding-top: 218px;
+    padding-left: 51px;
+    position: relative;
+}
+.f02{
+    font-size: 8px;
+    padding-top: 9px;
+    padding-left: 51px;
+}
+.c0{
+    width: 184px;
+    height: 67px;
+    position: absolute;
+    left: 123px;
+    top: 317px;
+    box-shadow: 0px 6px 10px #000000;
+}
+.c1{
+    width: 310px;
+    height: 736px;
+    position: absolute;
+    left: 100px;
+    top: 2046px;
+}
+.c2{
+    width: 430px;
+    height: 382px;
+    position: absolute;
+    top: 2414px;
+}
+.c3{
+    width: 281px;
+    height: 764px;
+    position: absolute;
+    left: 138px;    
+    top: 2963px;
+}
+.c4{
+    width: 430px;
+    height: 382px;
+    position: absolute;
+    top: 3345px;
+}
+.c5{
+    width: 333px;
+    height: 841px;
+    position: absolute;
+    top: 3809px;
+    left: 71px;
+}
+.c6{
+    width: 430px;
+    height: 382px;
+    position: absolute;
+    top: 4274px;
+}
+.c7{
+    width: 317px;
+    height: 815px;
+    position: absolute;
+    top: 4764px;
+    left: 117px;
+}
+.c8{
+    width: 430px;
+    height: 382px;
+    position: absolute;
+    top: 5206px;
+}
+.c9{
+    width: 353px;
+    height: 639px;
+    position: absolute;
+    top: 5881px;
+    left: 77px;
+}
+.c10{
+    width: 430px;
+    height: 382px;
+    position: absolute;
+    top: 6147px;
+}
+.c11{
+    width: 430px;
+    height: 270px;
+    position: absolute;
+    top: 6579px;
+}
+
+.word01, .word02, .word03, .word04, .word05, .word06{
+    position: absolute;
+    color: white;
+    text-shadow: 6px 6px 6px #000000;
+    text-align: center;
+}
+
+.word01, .word04{
+    font-family: 'SBAggroB';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 50px;
+}
+
+.word02, .word05{
+    font-family: 'KBO-Dia-Gothic_bold';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 25px;
+}
+
+.word03, .word06{
+    font-family: 'KBO-Dia-Gothic_medium';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.word01{
+    width: 302px;
+    height: 60px;
+    top: 182px;
+    left: 64px;
+}
+.word02{
+    width: 265px;
+    height: 25px;
+    top: 242px;
+    left: 83px;
+}
+
+.word03{
+    width: 314px;
+    height: 315px;
+    top: 429px;
+    left: 58px;
+}
+
+.word04{
+    width: 335px;
+    height: 60px;
+    top: 977px;
+    left: 48px;
+}
+
+.word05{
+    width: 311px;
+    height: 27px;
+    top: 1037px;
+    left: 60px;
+}
+
+.word06{
+    width: 202px;
+    height: 249px;
+    top: 1278px;
+    left: 115px;
+}
+
+.word07, .word08, .word09, .word10, .word11{
+    font-family: 'KBO-Dia-Gothic_medium';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13px;
+    line-height: 20px;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+
+.word07{
+    width: 390px;
+    height: 113px;
+    top: 2627px;
+    left: 20px;
+}
+
+.word08{
+    width: 282px;
+    height: 93px;
+    top: 3575px;
+    left: 74px;
+}
+
+.word09{
+    width: 202px;
+    height: 113px;
+    top: 4487px;
+    left: 114px;
+}
+
+.word10{
+    width: 262px;
+    height: 33px;
+    top: 5499px;
+    left: 84px;
+}
+
+.word11{
+    width: 320px;
+    height: 93px;
+    top: 6370px;
+    left: 55px;
+}
